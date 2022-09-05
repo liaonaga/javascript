@@ -10,16 +10,17 @@
             background-color: rgb(187, 175, 198);
             font: normal 20pt Arial;
         }
+        h1 {
+            color: rgb(236, 191, 43); /*Comentário no CSS*/
+        }
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo</h1>
+    <h1>Olá, Mundo</h1> <!--Comentário n HTML-->
     <p>Já me livrei da maldição</p>
-    <script>
-       /* window.alert('Minha primeira mensagem')
-        window.confirm('Está gostando de JS?')
-        */
-        window.prompt('Qual é seu nome?')
+    <script> //comentário no JavaScript
+        var nome = window.prompt('Qual é seu nome?')
+        window.alert('É um grande prazer em re conhecer, ' + nome + "!") //para juntar uma palavra na outra fazemos uma concatenação
     </script>
 </body>
 </html>
